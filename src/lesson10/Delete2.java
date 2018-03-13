@@ -15,8 +15,9 @@ public class Delete2 {
         boolean f = true;
         for(int i=0; i<array.length;i++) {
             f = map.containsKey(array[i]);
-            if(f == false)
-            {map.put(array[i],0);}
+            if(f == false) {
+                map.put(array[i],0);
+            }
         }
         Set<Map.Entry<Integer,Integer>> set = map.entrySet();
         for (Map.Entry<Integer, Integer> entry : set)
