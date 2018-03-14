@@ -11,7 +11,6 @@ public class Delete2 {
         int[] array = {1, 2, 2, 3, 4, 5, 3, 5, 6};
         Map<Integer, Integer> map = new HashMap<>();
 
-        int counter = 0;
         boolean f = true;
         for(int i=0; i<array.length;i++) {
             f = map.containsKey(array[i]);
